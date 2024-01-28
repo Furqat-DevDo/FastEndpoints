@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="5.21.2" />
+    <PackageReference Include="FastEndpoints.Swagger" Version="5.21.2" />
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="MongoDB.Entities" Version="23.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Account\Create\" />
+    <Folder Include="Features\Account\Login\" />
+    <Folder Include="Features\Account\Delete\" />
+    <Folder Include="Features\Admin\AtricleModeration\" />
+    <Folder Include="Features\Admin\Login\" />
+    <Folder Include="Features\Author\Articles\" />
+    <Folder Include="Features\Author\Login\" />
+    <Folder Include="Features\Public\AddArticleComment\" />
+    <Folder Include="Features\Public\GetArticles\" />
+    <Folder Include="Features\Public\GetArticle\" />
+    <Folder Include="Features\Public\GetArticleComments\" />
+  </ItemGroup>
+
+</Project>
